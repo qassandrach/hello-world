@@ -1,0 +1,21 @@
+{
+  "taskDefinition": {
+    "family": "wordpress",
+    "containerDefinitions": [
+      {
+        "name": "wordpress",
+        "image": "954492912526.dkr.ecr.ap-southeast-1.amazonaws.com/ecr-ci-c:latest",
+        "cpu": 10,
+        "portMappings": [
+          {
+            "protocol": "tcp",
+            "containerPort": 80,
+            "hostPort": 0
+          }
+        ],
+        "memory": 128,
+        "essential": true
+      }
+    ]
+  }
+}
