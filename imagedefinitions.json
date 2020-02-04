@@ -4,7 +4,7 @@
     "containerDefinitions": [
       {
         "name": "wordpress",
-        "image": "954492912526.dkr.ecr.ap-southeast-1.amazonaws.com/ecr-ci-c:latest",
+        "image": "954492912526.dkr.ecr.ap-southeast-1.amazonaws.com/hello-world:latest",
         "cpu": 10,
         "portMappings": [
           {
